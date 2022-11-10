@@ -13,6 +13,9 @@
 	width: 80%;
 	margin: 0 auto;
 }
+.blk-kham-pha{
+	padding: 0px 3vw;
+}
 
 .slider-url-1{
 	width: 88%;
@@ -25,6 +28,12 @@
 .md-moblie{
 	display: none !important;
 }
+@media screen and (min-width: 768.1px){
+	.blk-kham-pha {
+	    padding-bottom: 5vw;
+	}
+}
+
 @media screen and (max-width: 767px){
 	.md-desktop{
 		display: none !important;
