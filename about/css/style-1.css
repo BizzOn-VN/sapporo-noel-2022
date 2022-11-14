@@ -309,12 +309,13 @@
 }
 .page-star-guide .about-title{
 	color: #FFF;
-	font-size: calc(4px + 2vw);
+	font-size: calc(3.5px + 2vw);
 }
 .page-star-guide .about-content{
-	color: #FFF;
+	color: #000;
 	margin-bottom: 20px;
-	font-size: calc(2px + 1vw);
+	font-size: calc(4px + 1vw);
+	font-weight: 500;
 }
 .page-star-guide .main-page{
 	background-image: url(../images/bg-star-guide.jpg);
