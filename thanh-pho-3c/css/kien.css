@@ -9,7 +9,10 @@
     width: 35%;
     position: relative;
     z-index: 10;
-    padding: 0px 5% 20px;
+    padding: 20px 5% 20px;
+}
+.blk-kham-pha .blk-right{
+	padding: 5% 0px 2vw 5%;
 }
 .info-gift .item {
     position: relative;
