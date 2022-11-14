@@ -309,14 +309,18 @@
 }
 .page-star-guide .about-title{
 	color: #FFF;
+	font-size: calc(4px + 2vw);
 }
 .page-star-guide .about-content{
 	color: #FFF;
 	margin-bottom: 20px;
+	font-size: calc(2px + 1vw);
 }
 .page-star-guide .main-page{
 	background-image: url(../images/bg-star-guide.jpg);
+	height: auto !important;
 }
+
 @media screen and (max-width: 767px){
 	.page-star-guide .main-page{
 		background-image: none;
@@ -330,9 +334,11 @@
 	}
 	.page-star-guide .about-title{
 		width: 100%;
+		font-size: 26px;
 	}
 	.page-star-guide .about-content{
 		width: 100%;
+		font-size: 1rem;
 	}
 	.page-star-guide .about-button{
 		width: 100%;

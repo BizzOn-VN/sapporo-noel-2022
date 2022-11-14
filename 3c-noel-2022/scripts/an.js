@@ -73,3 +73,6 @@
 new WOW().init();
 
 
+setTimeout(function(){ 
+	$("html, .page-3c-question-result").animate({ scrollTop: 100 }), 3000;
+}, 3500);
