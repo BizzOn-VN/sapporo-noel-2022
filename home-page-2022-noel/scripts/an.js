@@ -307,7 +307,7 @@ $(".click-rotate").click(function(){
 
       $(".slider-url .inner-slider-url .item").removeClass("active");
       $(".slider-url .inner-slider-url .data-hash-clear").addClass("active");
-      deg -=45;
+      deg -=50;
       $(".image-rotate .img").css("transform","rotate("+ deg +"deg)");
     }, 4000);
     setTimeout(function(){
@@ -316,7 +316,7 @@ $(".click-rotate").click(function(){
       $(".slider-url .inner-slider-url .item").removeClass("active");
       $(".slider-url .inner-slider-url .data-hash-creamy").addClass("active");
       // $(".image-rotate .img").css("transform","rotate(-270deg)");
-      deg -=90;
+      deg -=78;
       $(".image-rotate .img").css("transform","rotate("+ deg +"deg)");
     }, 7000);
      setTimeout(function(){
@@ -330,7 +330,7 @@ $(".click-rotate").click(function(){
       $(".blk-whell").removeClass("hidden");
       $(".click-rotate").removeClass("disabled-click");
       // $(".image-rotate .img").css("transform","rotate(0deg)");
-      deg -=45;
+      deg -=52;
       $(".image-rotate .img").css("transform","rotate("+ deg +"deg)");
     }, 10000);
     
