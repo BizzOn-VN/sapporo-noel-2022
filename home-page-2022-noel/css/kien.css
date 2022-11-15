@@ -103,3 +103,74 @@
 	    margin: -5% auto 20px auto;
 	}
 }
+.select-videos-main .item{
+	color: #000 !important;
+    font-family: "UTM Bebas";
+    border-top: 1px solid #FFF;
+    font-size: 1.4vw;
+    background: #f6a95a !important;
+    padding: 7px 1.14285714rem!important;
+    cursor: pointer;
+}
+.select-videos-main{
+	width: 50%;
+	display: block;
+	background: #f6a95a !important;
+    border: none;
+    border-radius: 0px;
+    line-height: 1.2em;
+    text-align: left;
+    font-family: "UTM Bebas";
+}
+.select-videos-main .btn-secondary{
+	width: 100%;
+	color: #000 !important;
+	background: #f6a95a !important;
+	font-size: 1.9vw;
+	padding: 5px 2.1em 5px 1em;
+	min-height: 2em;
+	font-weight: 500;
+	border: none;
+	position: relative;
+	text-align: left;
+}
+.show>.btn-secondary.dropdown-toggle{
+	border: none;
+	background: none;
+}
+.select-videos-main .btn-secondary:hover{
+	border: none;
+
+}
+.select-videos-main .btn-secondary:after{
+	content: "";
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+}
+.select-videos-main .btn-secondary:focus{
+	box-shadow: none !important;
+}
+.select-videos-main .dropdown-menu.show{
+	width: 50%;
+	padding: 0px;
+	top: -1px !important;
+}
+
+@media screen and (max-width: 767px){
+	.select-videos-main{
+		width: 90%;
+	}
+	.select-videos-main .item{
+		font-size: 2.5vw;
+		 padding: 10px 1.14285714rem!important;
+	}
+	.select-videos-main .btn-secondary{
+		font-size: 3.5vw;
+	}
+	.select-videos-main .dropdown-menu.show{
+		width: 90%;
+	}
+}
