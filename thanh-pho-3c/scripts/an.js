@@ -316,7 +316,7 @@ $(".click-rotate").click(function(){
       $(".slider-url .inner-slider-url .item").removeClass("active");
       $(".slider-url .inner-slider-url .data-hash-creamy").addClass("active");
       // $(".image-rotate .img").css("transform","rotate(-270deg)");
-      deg -=78;
+      deg -=77;
       $(".image-rotate .img").css("transform","rotate("+ deg +"deg)");
     }, 7000);
      setTimeout(function(){
@@ -330,7 +330,7 @@ $(".click-rotate").click(function(){
       $(".blk-whell").removeClass("hidden");
       $(".click-rotate").removeClass("disabled-click");
       // $(".image-rotate .img").css("transform","rotate(0deg)");
-      deg -=52;
+      deg -=53;
       $(".image-rotate .img").css("transform","rotate("+ deg +"deg)");
     }, 10000);
     
