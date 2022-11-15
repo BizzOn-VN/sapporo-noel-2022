@@ -1,8 +1,8 @@
 .blk-kham-pha .ctn-inner .bg-blk-3c {
     position: absolute;
-    left: -3.5%;
+    left: -4%;
     top: 0%;
-    width: 43%;
+    width: 44%;
     height: 100%;
 }
 .blk-left .img-blk-whell {
@@ -16,7 +16,12 @@
 .blk-kham-pha{
 	padding: 0px 3vw;
 }
-
+.blk-whell .inner{
+	width: 75%;
+}
+.blk-kham-pha .blk-left{
+	padding: 2vw 0px 0px 0px;
+}
 .slider-url-1{
 	width: 88%;
 }
@@ -49,14 +54,14 @@
 	    width: 60%;
 	    display: table;
 	    margin: 0 auto;
-        padding: 12% 0px 16%;
+        padding: 15% 0px 0%;
 	}
 	.blk-kham-pha .blk-left {
 	    background: url(../images/bg-blk-3c-mb.png) no-repeat;
 	    background-size: 100% 100%;
 	    width: 100%;
         padding: 0px;
-        margin-bottom: 25%;
+        margin-bottom: 10%;
 	}
 	.blk-kham-pha .blk-right .share-khoanh-khac{
 		opacity: 1;
