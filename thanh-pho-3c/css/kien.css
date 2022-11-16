@@ -141,3 +141,9 @@
 		    margin: -5% auto 20px auto;
 	}
 }
+.wrapper-rotate{
+	width: 100%;
+}
+.blk-kham-pha .blk-right{
+	padding: 0% 0px 2vw 10%;
+}

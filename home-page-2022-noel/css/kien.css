@@ -159,6 +159,13 @@
 	top: -1px !important;
 }
 
+.wrapper-rotate{
+	width: 100%;
+}
+.blk-kham-pha .blk-right{
+	padding: 0px 0px 2vw 10%;
+}
+
 @media screen and (max-width: 767px){
 	.select-videos-main{
 		width: 90%;
