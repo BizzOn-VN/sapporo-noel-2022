@@ -52,6 +52,7 @@
 	    width: 100%;
 	    padding: 0px;
 	}
+	
 	.blk-left .img-blk-whell {
 	    width: 60%;
 	    display: table;
@@ -181,5 +182,8 @@
 	}
 	.select-videos-main .dropdown-menu.show{
 		width: 90%;
+	}
+	.blk-kham-pha .blk-right{
+		padding: 0% 0px 5% 0%;
 	}
 }

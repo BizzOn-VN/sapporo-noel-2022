@@ -76,7 +76,9 @@
     margin: 0 auto;
 }
 
-
+.blk-kham-pha .blk-right{
+	padding: 0% 0px 2vw 12%;
+}
 .md-desktop{
 	display: block !important;
 }
@@ -105,6 +107,9 @@
 	    background-size: 100% 100%;
 	    width: 100%;
         padding: 0px;
+	}
+	.blk-kham-pha .blk-right{
+		padding: 0% 0px 5% 0%;
 	}
 	.info-gift .item .tham-gia-ngay {
 	    font-size: 3vw;
@@ -146,7 +151,4 @@
 }
 .wrapper-rotate{
 	width: 100%;
-}
-.blk-kham-pha .blk-right{
-	padding: 0% 0px 2vw 12%;
 }
