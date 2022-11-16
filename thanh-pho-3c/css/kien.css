@@ -1,19 +1,18 @@
 .blk-kham-pha .ctn-inner .bg-blk-3c {
     position: absolute;
-    left: -3.5%;
+    left: 0%;
     top: 0%;
-    width: 43%;
+    width: 40%;
     height: 100%;
 }
 .blk-kham-pha .blk-left {
-    width: 35%;
+    width: 37%;
     position: relative;
     z-index: 10;
-    padding: 20px 5% 20px;
+    padding: 4vw 0px 0px 0px;
+    margin-left: 3%;
 }
-.blk-kham-pha .blk-right{
-	padding: 5% 0px 2vw 5%;
-}
+
 .info-gift .item {
     position: relative;
     width: 47%;
@@ -39,7 +38,7 @@
 }
 .moment-museum {
     position: relative;
-    width: 70%;
+    width: 50%;
     display: table;
     margin: 0 auto;
 }
@@ -61,18 +60,22 @@
 	display: none;
 }
 .info-gift{
-	margin-bottom: 40px;
-	padding-top: 10px;
+	margin-bottom: 20px;
 }
 .blk-kham-pha{
-	padding: 0px 3vw;
+	padding: 0px;
 }
 .slider-url-1{
 	width: 88%;
 }
 .blk-whell .inner{
-	width: 100%;
+	width: 75%;
 }
+.blk-kham-pha .share-khoanh-khac {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .md-desktop{
 	display: block !important;
@@ -145,5 +148,5 @@
 	width: 100%;
 }
 .blk-kham-pha .blk-right{
-	padding: 0% 0px 2vw 10%;
+	padding: 0% 0px 2vw 12%;
 }

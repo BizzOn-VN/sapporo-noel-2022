@@ -1,8 +1,8 @@
 .blk-kham-pha .ctn-inner .bg-blk-3c {
     position: absolute;
-    left: -4%;
+    left: 0%;
     top: 0%;
-    width: 44%;
+    width: 40%;
     height: 100%;
 }
 .blk-left .img-blk-whell {
@@ -14,13 +14,15 @@
 	margin: 0 auto;
 }
 .blk-kham-pha{
-	padding: 0px 3vw;
+	padding: 0px;
 }
 .blk-whell .inner{
 	width: 75%;
 }
 .blk-kham-pha .blk-left{
 	padding: 2vw 0px 0px 0px;
+	width: 37%;
+	margin-left: 3%;
 }
 .slider-url-1{
 	width: 88%;
@@ -163,7 +165,7 @@
 	width: 100%;
 }
 .blk-kham-pha .blk-right{
-	padding: 0px 0px 2vw 10%;
+	padding: 0px 0px 2vw 12%;
 }
 
 @media screen and (max-width: 767px){
