@@ -167,7 +167,8 @@
 	width: 100%;
 }
 .blk-kham-pha .blk-right{
-	padding: 0px 0px 2vw 12%;
+	padding: 0px 0px 2vw 0%;
+	margin-left: 10%;
 }
 
 @media screen and (max-width: 767px){
@@ -186,5 +187,6 @@
 	}
 	.blk-kham-pha .blk-right{
 		padding: 0% 0px 5% 0%;
+		margin-left: 0%;
 	}
 }
