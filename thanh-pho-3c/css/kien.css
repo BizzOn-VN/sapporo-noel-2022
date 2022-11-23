@@ -166,6 +166,10 @@
 	padding: 0px 0px 2vw 0%;
 	margin-left: 6%;
 }
+.wrapper-rotate{
+	width: 80%;
+	margin: 0 auto;
+}
 
 @media screen and (max-width: 767px){
 	.select-videos-main{
@@ -184,5 +188,8 @@
 	.blk-kham-pha .blk-right{
 		padding: 0% 0px 5% 0%;
 		margin-left: 0%;
+	}
+	.wrapper-rotate{
+		width: 100%;
 	}
 }
