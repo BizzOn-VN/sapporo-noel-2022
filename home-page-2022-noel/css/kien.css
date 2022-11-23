@@ -189,4 +189,19 @@
 		padding: 0% 0px 5% 0%;
 		margin-left: 0%;
 	}
+	.content-hhc{
+		position: static;
+		transform: translate(0,0);
+		padding: 3% 0px;
+		background-color: rgba(0, 0, 0, 0.3) !important;
+	}
+	.spr-slider .owl-dots{
+		bottom: 35%;
+	}
+	.spr-slider .item .more{
+		bottom: 35%;
+	}
+	.spr-slider .owl-carousel{
+		margin-bottom: 0px;
+	}
 }
