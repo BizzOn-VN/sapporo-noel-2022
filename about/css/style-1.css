@@ -314,7 +314,7 @@
 .page-star-guide .about-content{
 	color: #000;
 	margin-bottom: 20px;
-	font-size: calc(3px + 1vw);
+	font-size: calc(2px + 1vw);
 	font-weight: 500;
 }
 .page-star-guide .main-page{
@@ -384,4 +384,38 @@
 
 .mx-md-2{
 	margin-right: 2rem !important;
+}
+@media screen and (min-width: 1599px){
+	.page-star-guide .about-content .container{
+		max-width: 1200px;
+	}
+	.page-star-guide .about-content{
+		margin: 0 auto 20px auto;
+		
+	}
+	.page-star-guide .about-title{
+		margin: 0 auto;
+		
+	}
+	.page-star-guide .about-button{
+		margin: 0 auto;
+		
+	}
+}
+@media screen and (min-width: 2559px){
+	.page-star-guide .about-content{
+		margin: 0 auto 20px auto;
+		width: 700px;
+	}
+	.page-star-guide .about-title{
+		margin: 0 auto;
+		width: 700px;
+	}
+	.page-star-guide .about-button{
+		margin: 0 auto;
+		width: 700px;
+	}
+	.page-star-guide .container{
+		max-width: 1600px;
+	}
 }
