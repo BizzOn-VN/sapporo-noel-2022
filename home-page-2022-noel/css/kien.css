@@ -200,20 +200,37 @@
 	.content-hhc{
 		position: static;
 		transform: translate(0,0);
-		padding: 3% 0px;
+		padding: 5px 0px;
 		background-color: rgba(0, 0, 0, 0.3) !important;
-		
+		display: block;
+		padding-left: 20px;
 	}
 	.spr-slider .owl-dots{
-		bottom: 35%;
+		bottom: 33%;
 	}
 	.spr-slider .item .more{
-		bottom: 35%;
+		bottom: 33%;
 	}
 	.spr-slider .owl-carousel{
 		margin-bottom: 0px;
 	}
 	.wrapper-rotate{
 		width: 100%;
+	}
+	.content-hhc .info a.title{
+		font-size: 5.5vw;
+	}
+	.content-hhc .icon{
+		width: 18%;
+		float: left;
+	}
+	.content-hhc .info{
+		float: left;
+		padding-left: 4vw;
+		width: 70%;
+		padding-top: 5px;
+	}
+	.content-hhc .info a.title span{
+		display: inherit;
 	}
 }
