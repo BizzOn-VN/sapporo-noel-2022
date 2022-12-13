@@ -244,3 +244,32 @@
 	z-index: 99999;
 	pointer-events: none;
 }
+
+.video-blk-right{
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	width: 65%;
+	height: 100%;
+	opacity: 0;
+	
+}
+
+video::-webkit-media-controls-panel
+  {
+       display: none !important;
+       opacity: 0 !important;
+  }
+
+@media screen and (max-width: 767px){
+	.video-blk-right{
+		
+		right: 0%;
+		top: auto;
+		bottom: 5%;
+		width: 100%;
+		height: auto;
+		
+		
+	}
+}
