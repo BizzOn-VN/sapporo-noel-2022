@@ -19,7 +19,7 @@
   var window_width= $(window).width();
   if(window_width<768){
     $('html,body').animate({
-            scrollTop: $(".button-click").offset().top -$(".wrapper-rotate").height() - $(".wrapper-rotate").height()*20/100
+            scrollTop: $(".button-click").offset().top -$(".video-blk-right").height() - $(".video-blk-right").height()*20/100 - 120
     }, 'slow');
   }
 }
