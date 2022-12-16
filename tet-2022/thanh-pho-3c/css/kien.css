@@ -254,6 +254,7 @@
 	height: 100%;
 	opacity: 1;
 	pointer-events: none;
+	background: #000;
 }
 
 video::-webkit-media-controls-panel

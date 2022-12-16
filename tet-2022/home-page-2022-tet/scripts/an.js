@@ -253,9 +253,16 @@ $(document).ready(function(){
 
 
 function playVideo() {
-        $('.video-blk-right').get(0).play();
+        $('.video-blk-dt').get(0).play();
         setTimeout( function(){
-          $('.video-blk-right').get(0).load();
+          $('.video-blk-dt').get(0).load();
+       },22000);
+    }
+
+function playVideomb() {
+        $('.video-blk-mb').get(0).play();
+        setTimeout( function(){
+          $('.video-blk-mb').get(0).load();
        },22000);
     }
 $('.blk-right').click(function(){

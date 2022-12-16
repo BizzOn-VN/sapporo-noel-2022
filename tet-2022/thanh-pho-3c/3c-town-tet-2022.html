@@ -323,7 +323,7 @@ _paq.push(['setSiteId', '2']);
   </div>
 </nav>
 <main class="page-main page-spr-starguide" id="ani-snow">
-  <div class="wrapper-kham-pha" id="ani-snow">
+    <div class="wrapper-kham-pha" id="ani-snow">
     <div class="blk-kham-pha ctn-container clearfix">
       <div class="ctn-inner clearfix" id="wowslider-container1">
         <img src="./images/bg-blk-3c.png" alt="" class="bg-blk-3c md-desktop">
@@ -409,12 +409,23 @@ _paq.push(['setSiteId', '2']);
           </div>
           </div>
         </div>
-        <video preload="metadata" width="100%"  playsinline class="video-blk-right md-mobile">
-            <source src="./images/video.mp4" type="video/mp4">
+        <div class="md-desktop">
+            <video preload="metadata" width="100%"  playsinline class="video-blk-right video-blk-dt">
+                <source src="./images/video-desktop.mp4" type="video/mp4" >
+                 
 
-          </video>
-          <img src="./images/cube-mb.jpg" alt="" class="video-blk-right md-desktop">
-        <div class="blk-right" onclick="playVideo()">
+              </video>
+          </div>
+        <div class="md-moblie">
+          <video preload="metadata" width="100%"  playsinline class="video-blk-right video-blk-mb">
+              <source src="./images/video.mp4" type="video/mp4" >
+               
+
+            </video>
+        </div>
+          
+         
+        <div class="blk-right md-desktop" onclick="playVideo()">
           
           <img  src="./images/cube_01_3c_look.png" alt="" class="img-cube">
           <!-- <div class="wrapper-rotate button-click-video" onclick="playVideo()">
@@ -424,6 +435,26 @@ _paq.push(['setSiteId', '2']);
             </div>
           </div> -->
           <div class="wrapper-button-click button-click-video" onclick="playVideo()">
+            <div class="wrp-inner">
+              <div class="button-click click-rotate" id="button-click">
+              
+            </div>
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        <div class="blk-right md-moblie" onclick="playVideomb()">
+          
+          <img  src="./images/cube_01_3c_look.png" alt="" class="img-cube">
+          <!-- <div class="wrapper-rotate button-click-video" onclick="playVideo()">
+            <div class="image-rotate">
+             
+             <img class="bg" src="./images/cube_01_3c_look.png" alt="">
+            </div>
+          </div> -->
+          <div class="wrapper-button-click button-click-video" onclick="playVideomb()">
             <div class="wrp-inner">
               <div class="button-click click-rotate" id="button-click">
               
