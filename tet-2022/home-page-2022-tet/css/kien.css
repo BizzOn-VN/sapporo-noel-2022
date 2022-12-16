@@ -304,7 +304,9 @@ video::-webkit-media-controls-start-playback-button {
         display: none!important;
         -webkit-appearance: none;
     }
-
+video::-webkit-media-controls-overlay-play-button {
+      display: none;
+    }
 @media screen and (max-width: 767px){
 	.video-blk-right{
 		
