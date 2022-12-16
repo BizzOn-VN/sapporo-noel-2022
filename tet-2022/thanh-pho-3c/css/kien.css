@@ -2,7 +2,7 @@
     position: absolute;
     left: 2%;
     top: 0%;
-    width: 31%;
+    width: 33%;
     height: 100%;
 }
 .blk-left .img-blk-whell {
@@ -20,8 +20,8 @@
 	width: 75%;
 }
 .blk-kham-pha .blk-left{
-	padding: 4vw 0px 0px 0px;
-	width: 37%;
+	padding: 2vw 0px 0px 0px;
+	width: 35%;
 	margin-left: 1%;
 }
 .slider-url-1{
@@ -59,7 +59,7 @@
 	    background-size: 100% 100%;
 	    width: 100%;
         padding: 0px;
-        margin-bottom: 10%;
+        margin-bottom: 0%;
         margin-left: 0px;
 	}
 	.blk-kham-pha .blk-right .share-khoanh-khac{
@@ -84,22 +84,11 @@
 		padding-bottom: 7%;
 	}
 	.slider-url-1{
-		position: static;
-		width: 80%;
-		margin: 0 auto;
-		transform: translate(0%);
-		opacity: 1;
-		display: none;
-		transition-duration: 1s;
-	}
-	.slider-url-1.active-slider-url{
-		opacity: 1;
-		display: block;
-		transition-duration: 1s;
+		top: 15%;
 	}
 	.wrapper-button-click .wrp-inner {
-	    display: table;
-	    margin: -5% auto 20px auto;
+	    
+	    margin: 0px auto;
 	}
 }
 .select-videos-main .item{
@@ -160,12 +149,39 @@
 
 
 .blk-kham-pha .blk-right{
-	padding: 0px 0px 5vw 0%;
-	margin-left: 6%;
+	position: absolute;
+	width: 65%;
+	right: 0%;
+	top: 0%;
+	height: 100%;
+}
+.blk-kham-pha .blk-right .img-cube{
+	display: none;
+	width: 100%;
 }
 .wrapper-rotate{
-	width: 75%;
+	width: 100%;
 	margin: 0 auto;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+.wrapper-button-click{
+	position: absolute;
+	left: 30%;
+	bottom: 2%;
+}
+.slider-url .inner-slider-url .data-hash-chuan3c{
+	top: -50%;
+}
+.slider-url .inner-slider-url .data-hash-chuan3c img{
+	width: 50%;
+	display: table;
+	margin: 0 auto;
+}
+.slider-url .inner-slider-url{
+	overflow: inherit;
 }
 
 @media screen and (max-width: 767px){
@@ -183,10 +199,18 @@
 		width: 90%;
 	}
 	.blk-kham-pha .blk-right{
-		padding: 0% 0px 5% 0%;
+		padding: 0% 0px 0% 0%;
 		margin-left: 0%;
 	}
-	.wrapper-rotate{
+	.slider-url .inner-slider-url .data-hash-chuan3c{
+		top: -5%;
+	}
+	.slider-url .inner-slider-url .data-hash-chuan3c img{
+		width: 30%;
+	}
+	
+	.blk-kham-pha .blk-right{
+		position: relative;
 		width: 100%;
 	}
 }
@@ -227,9 +251,9 @@
 	right: 0%;
 	top: 0%;
 	width: 65%;
-	height: 89%;
-	opacity: 0;
-	
+	height: 100%;
+	opacity: 1;
+	pointer-events: none;
 }
 
 video::-webkit-media-controls-panel
@@ -237,16 +261,26 @@ video::-webkit-media-controls-panel
        display: none !important;
        opacity: 0 !important;
   }
-
+  video::-webkit-media-controls {
+    display:none !important;
+}
+video::-webkit-media-controls-start-playback-button {
+        display: none!important;
+        -webkit-appearance: none;
+    }
+video::-webkit-media-controls-overlay-play-button {
+      display: none;
+    }
 @media screen and (max-width: 767px){
 	.video-blk-right{
-		
-		right: 0%;
-		top: auto;
-		bottom: 3%;
 		width: 100%;
+		bottom: 0%;
+		top: auto;
 		height: auto;
+		left: 0%;
 		
-		
+	}
+	.blk-kham-pha .blk-right .img-cube{
+		display: block;
 	}
 }

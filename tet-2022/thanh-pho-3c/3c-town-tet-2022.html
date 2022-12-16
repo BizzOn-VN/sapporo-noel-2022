@@ -323,13 +323,11 @@ _paq.push(['setSiteId', '2']);
   </div>
 </nav>
 <main class="page-main page-spr-starguide" id="ani-snow">
-  <div class="wrapper-kham-pha">
+  <div class="wrapper-kham-pha" id="ani-snow">
     <div class="blk-kham-pha ctn-container clearfix">
       <div class="ctn-inner clearfix" id="wowslider-container1">
         <img src="./images/bg-blk-3c.png" alt="" class="bg-blk-3c md-desktop">
-        <video width="100%" autoplay controls class="video-blk-right">
-            <source src="./images/video.mp4" type="video/mp4">
-          </video>
+        
         <div class="blk-left">
           <div>
             <div class="blk-whell img-blk-whell">
@@ -366,6 +364,9 @@ _paq.push(['setSiteId', '2']);
               </div>
               <div class="item data-hash-creamy" data-hash="creamy">
                 <img src="./images/creamy.png" alt="">
+              </div>
+              <div class="item data-hash-chuan3c" data-hash="chuan3c">
+                <img src="./images/chuan-3c.png" alt="">
               </div>
             </div>
           </div>
@@ -408,29 +409,20 @@ _paq.push(['setSiteId', '2']);
           </div>
           </div>
         </div>
-        <div class="blk-right">
-          <div class="slider-url slider-url-1">
-            <div class="inner-slider-url">
-              <div class="bg">
-                <img src="./images/clear.png" alt="">
-              </div>
-              <div class="item data-hash-clear" data-hash="clear">
-                <img src="./images/clear.png" alt="">
-              </div>
-              <div class="item data-hash-cold" data-hash="cold">
-                <img src="./images/cold.png" alt="">
-              </div>
-              <div class="item data-hash-creamy" data-hash="creamy">
-                <img src="./images/creamy.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="wrapper-rotate button-click-video" onclick="playVideo()">
+        <video preload="metadata" width="100%"  playsinline class="video-blk-right md-mobile">
+            <source src="./images/video.mp4" type="video/mp4">
+
+          </video>
+          <img src="./images/cube-mb.jpg" alt="" class="video-blk-right md-desktop">
+        <div class="blk-right" onclick="playVideo()">
+          
+          <img  src="./images/cube_01_3c_look.png" alt="" class="img-cube">
+          <!-- <div class="wrapper-rotate button-click-video" onclick="playVideo()">
             <div class="image-rotate">
-             <img class="img click-rotate" src="./images/cube_01_3c_look.png" alt="">
+             
              <img class="bg" src="./images/cube_01_3c_look.png" alt="">
             </div>
-          </div>
+          </div> -->
           <div class="wrapper-button-click button-click-video" onclick="playVideo()">
             <div class="wrp-inner">
               <div class="button-click click-rotate" id="button-click">

@@ -185,13 +185,7 @@
 	min-width: auto;
 	width: 100%;
 }
-.wrapper-rotate .image-rotate img.img{
-	position: static;
-	opacity: 0;
-}
-.wrapper-rotate .image-rotate img.bg{
-	opacity: 0;
-}
+
 .slider-url .inner-slider-url .data-hash-chuan3c{
 	top: -50%;
 }
@@ -286,9 +280,9 @@
 
 .video-blk-right{
 	position: absolute;
-	left: 9%;
+	right: 0%;
 	top: 0%;
-	width: 100%;
+	width: 65%;
 	height: 100%;
 	opacity: 1;
 	pointer-events: none;
@@ -311,7 +305,7 @@ video::-webkit-media-controls-overlay-play-button {
     }
 @media screen and (max-width: 767px){
 	.video-blk-right{
-		
+		width: 100%;
 		bottom: 0%;
 		top: auto;
 		height: auto;
