@@ -4,12 +4,12 @@
 ----------------------------------------------------------------------------------------------------*/
 
  function scrool_to_slider(){
-  // var window_width= $(window).width();
-  // if(window_width<768){
-  //   $('html,body').animate({
-  //           scrollTop: $(".button-click").offset().top -$(".video-blk-right").height() - $(".video-blk-right").height()*20/100 - 120
-  //   }, 'slow');
-  // }
+  var window_width= $(window).width();
+  if(window_width<768){
+    $('html,body').animate({
+            scrollTop: $(".wrapper-kham-pha").offset().top - 70
+    }, 'slow');
+  }
 }
 
 $(".share-khoanh-khac .info-gift .item ").hover(function(){
@@ -254,6 +254,9 @@ $(document).ready(function(){
 
 function playVideo() {
         $('.video-blk-right').get(0).play();
+        setTimeout( function(){
+          $('.video-blk-right').get(0).load();
+       },22000);
     }
 $('.blk-right').click(function(){
   $('.video-blk-right').css('z-index',999);
