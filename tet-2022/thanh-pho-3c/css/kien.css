@@ -170,7 +170,7 @@
 .wrapper-button-click{
 	position: absolute;
 	left: 30%;
-	bottom: 2%;
+	bottom: 12%;
 }
 .slider-url .inner-slider-url .data-hash-chuan3c{
 	top: -50%;
@@ -254,7 +254,7 @@
 	height: 100%;
 	opacity: 1;
 	pointer-events: none;
-	background: #000;
+	background: #b6b6b5;
 }
 
 video::-webkit-media-controls-panel
@@ -279,9 +279,12 @@ video::-webkit-media-controls-overlay-play-button {
 		top: auto;
 		height: auto;
 		left: 0%;
-		
+		background: transparent;
 	}
 	.blk-kham-pha .blk-right .img-cube{
 		display: block;
+	}
+	.wrapper-button-click{
+		bottom: 2%;
 	}
 }

@@ -287,7 +287,7 @@
 	height: 100%;
 	opacity: 1;
 	pointer-events: none;
-	background: #000;
+	background: #b6b6b5;
 }
 
 video::-webkit-media-controls-panel
@@ -312,7 +312,7 @@ video::-webkit-media-controls-overlay-play-button {
 		top: auto;
 		height: auto;
 		left: 0%;
-		
+		background: transparent;
 	}
 	.blk-kham-pha .blk-right .img-cube{
 		display: block;
