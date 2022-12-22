@@ -129,7 +129,6 @@ input[type=submit] {
   top: 20px;
   /* border: 1px solid #f5a967 !important; */
   padding: 2px 4px !important;
-  background: #FFE9B6 !important;
   border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
