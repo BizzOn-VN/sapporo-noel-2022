@@ -329,6 +329,12 @@ video::-webkit-media-controls-start-playback-button {
 video::-webkit-media-controls-overlay-play-button {
       display: none;
     }
+@media screen and (min-width: 1366px){
+	.video-blk-right{
+		right: 2.17%;
+		
+	}
+}
 @media screen and (max-width: 767px){
 	.video-blk-right{
 		width: 100%;
