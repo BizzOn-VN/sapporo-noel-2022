@@ -256,7 +256,7 @@
 		width: 100%;
 	}
 	.content-hhc .info a.title{
-		font-size: 5.5vw;
+		font-size: 5vw;
 	}
 	.content-hhc .icon{
 		width: 18%;
@@ -265,7 +265,7 @@
 	.content-hhc .info{
 		float: left;
 		padding-left: 4vw;
-		width: 70%;
+		width: 80%;
 		padding-top: 5px;
 	}
 	.content-hhc .info a.title span{
