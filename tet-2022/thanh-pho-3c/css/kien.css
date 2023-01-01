@@ -23,6 +23,7 @@
 	padding: 2vw 0px 0px 0px;
 	width: 35%;
 	margin-left: 6%;
+	z-index: 11;
 }
 .slider-url-1{
 	width: 88%;
