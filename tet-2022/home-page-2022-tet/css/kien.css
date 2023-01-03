@@ -283,6 +283,7 @@
 	.blk-kham-pha .blk-right{
 		position: relative;
 		width: 100%;
+		z-index: -1;
 	}
 }
 #ani-snow{
