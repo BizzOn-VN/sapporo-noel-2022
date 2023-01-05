@@ -74,5 +74,9 @@ new WOW().init();
 
 
 setTimeout(function(){ 
-	$("html, .page-3c-question").animate({ scrollTop: 100 }), 3000;
-}, 3500);
+	
+  if($(window).width()>768){
+    $("html, .page-3c-question").animate({ scrollTop: 100 });
+  }
+  
+}, 3000);
