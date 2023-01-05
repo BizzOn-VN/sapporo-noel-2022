@@ -78,5 +78,7 @@ setTimeout(function(){
   if($(window).width()>768){
     $("html, .page-3c-question").animate({ scrollTop: 100 });
   }
-  
+  else{
+    $("html, .page-3c-question").animate({ scrollTop: 50 });
+  }
 }, 3000);

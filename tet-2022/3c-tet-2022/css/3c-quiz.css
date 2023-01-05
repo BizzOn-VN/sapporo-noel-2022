@@ -921,9 +921,7 @@
   .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .md-text-1{
     font-size: calc(40px + 5vw);;
   }
-  .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .img-text-1{
-    width: 50%;
-  }
+  
   .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .img-text-1 p{
     font-size: calc(4px + 2.2vw);
   }
@@ -1426,5 +1424,8 @@
     width: 35%;
     top: 31%;
     left: 50%;
+  }
+  .page-3c-question .page-result .blk-gr3c-animation .inner-gr3c-animation .main-home .img-text-1{
+    width: 50%;
   }
 }
