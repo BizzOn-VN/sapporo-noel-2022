@@ -888,11 +888,7 @@
   .page-3c-question .fancybox-is-open .fancybox-bg{
     opacity: 0;
   }
-  .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .img-text-1{
-    width: 35%;
-    top: 31%;
-    left: 50%;
-  }
+  
   .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .img-text-1 p{
     font-size: calc(20px + 3vw);
   }
@@ -1425,5 +1421,10 @@
   .page-game .page-main{
     padding-bottom: 5%;
     padding-top: 20%;
+  }
+  .page-3c-question .page-quiz-1 .blk-gr3c-animation .inner-gr3c-animation .main-home .img-text-1{
+    width: 35%;
+    top: 31%;
+    left: 50%;
   }
 }
