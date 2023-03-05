@@ -241,13 +241,14 @@
 	display: block;
 }
 .page-3c-fixed{
-	background: url(../images/bg.png) no-repeat;
+	/*background: url(../images/bg.png) no-repeat;
 	background-size: cover;
 	    background-attachment: inherit;
-	    background-position: center;
+	    background-position: center;*/
 }
 .page-3c-fixed .page-main{
 	background-color: transparent;
+
 }
 
 .page-3c-fixed .md-desktop{
@@ -312,26 +313,44 @@
 	font-size: calc(3.5px + 2vw);
 }
 .page-star-guide .about-content{
-	color: #000;
+	color: #FFF;
 	margin-bottom: 20px;
 	font-size: calc(2px + 1vw);
-	font-weight: 500;
+	font-weight: 400;
 }
 .page-star-guide .main-page{
 	background-image: url(../images/bg-star-guide.jpg);
 	height: auto !important;
+	background-position: right;
+}
+.page-star-guide .page-main .img-bg{
+	display: none;
 }
 
 @media screen and (max-width: 767px){
 	.page-star-guide .main-page{
 		background-image: none;
-		padding-bottom: 50vh;
+		padding-bottom: 0vh;
+
 	}
-	.page-star-guide .page-main{
-		background-image: url(../images/bg-star-guide-mb.jpg);
+	.page-3c-fixed .page-main{
+		position: relative;
+	}
+	.page-star-guide .page-main .img-bg{
+		/*background-image: url(../images/bg-star-guide-mb.jpg);
 		background-position: bottom;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 100% auto;*/
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		position: absolute;
+		left: 0%;
+		top: 0%;
+		display: block;
+	}
+	.page-star-guide .page-main .img-bg img{
+		width: 100%;
 	}
 	.page-star-guide .about-title{
 		width: 100%;
@@ -339,7 +358,7 @@
 	}
 	.page-star-guide .about-content{
 		width: 100%;
-		font-size: 1rem;
+		font-size: calc(1px + 3vw);
 	}
 	.page-star-guide .about-button{
 		width: 100%;
