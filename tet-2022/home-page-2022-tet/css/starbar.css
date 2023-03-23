@@ -1,0 +1,97 @@
+.wrapper-starbar .banner-mixology{
+	width: 100%;
+}
+.wrapper-starbar{
+	position: relative;
+}
+.wrapper-starbar .content-starbar{
+	position: absolute;
+	left: 15%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 38%;
+	text-align: center;
+}
+.wrapper-starbar .content-starbar .img-starbar{
+	width: 60%;
+	display: table;
+		margin: 0 auto 20px auto;
+}
+.wrapper-starbar .content-starbar .img-logo{
+	width: 50%;
+	margin-bottom: 30px;
+}
+.wrapper-starbar .content-starbar p{
+	font-size: calc(3px + 0.8vw);
+}
+.wrapper-starbar  p span{
+	font-family: "SVN-GothamBold";
+}
+.wrapper-starbar  a{
+	text-transform: uppercase;
+	background: #000;
+	padding: 5px 12px;
+	border-radius: 50px;
+	color: #FFF;
+	font-weight: 400;
+	margin-top: 10px;
+	font-size: calc(5px + 0.8vw);
+	border: 1px solid #000;
+	display: inline-block;
+}
+.wrapper-starbar  a:hover{
+	background: #FFF;
+	color: #000;
+	text-decoration: none;
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.wrapper-starbar .content-starbar .img-starbar{
+		margin: 0 auto 15px auto;
+	}
+	.wrapper-starbar .content-starbar .img-logo{
+		margin-bottom: 20px;
+	}
+	.wrapper-starbar .content-starbar p{
+		margin-bottom: 8px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.wrapper-starbar .content-starbar{
+		position: static;
+		width: 100%;
+		background: url(../images/bg-starbar-mb.png) no-repeat;
+		background-size: 100% 100%;
+		padding-top: 20px;
+		transform: translateY(0%);
+	}
+	.wrapper-starbar .content-starbar-bot{
+		background: url(../images/bg-starbar-mb-2.png) no-repeat;
+		background-size: 100% 100%;
+		    margin-top: -11%;
+		    padding-bottom: 20px;
+		    text-align: center;
+	}
+	.wrapper-starbar .banner-mixology-mb{
+		width: 100%;
+		margin-top: -10%;
+
+
+	}
+	.wrapper-starbar .content-starbar .img-starbar{
+		position: relative;
+		z-index: 1;
+	}
+	.wrapper-starbar a{
+		text-align: center;
+		font-size: 15px;
+		display: table;
+		margin: 0 auto;
+		padding: 3px 20px;
+	}
+	.wrapper-starbar .content-starbar .img-starbar{
+		display: table;
+		margin: 0 auto;
+		width: 75%;
+	}
+}
