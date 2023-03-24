@@ -31,7 +31,7 @@
 	display: table;
 		margin: 0 auto 20px auto;
 		
-		opacity: 0;
+		/*opacity: 0;*/
 
 }
 
@@ -168,17 +168,22 @@
 	0%{
 		opacity: 0;
 	}
-	20% {
+	13% {
 	    opacity: 0;
 	    -webkit-transform: translate3d(0, -100%, 0);
 	    transform: translate3d(0, -100%, 0); }
-	  27% {
+	  21% {
 	    opacity: 1;
 	    -webkit-transform: translate3d(0, 0, 0);
 	    transform: translate3d(0, 0, 0); } 
-	    100%{
-	    	opacity: 1;
-	    }
+	24%{-webkit-transform:scaleX(1);transform:scaleX(1)}
+			26%,28%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}
+			30%,34%,38%,42%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}
+			32%,36%,40%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}
+			44%{-webkit-transform:scaleX(1);transform:scaleX(1)}
+	100%{
+		opacity: 1;
+	}
 }
 @keyframes mixology-4{
 	from {
@@ -197,4 +202,9 @@
 	    opacity: 1;
 	    -webkit-transform: scale3d(1, 1, 1);
 	    transform: scale3d(1, 1, 1); } 
+	}
+
+
+	@keyframes tada{
+		
 	}
