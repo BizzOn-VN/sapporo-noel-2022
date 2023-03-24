@@ -1,11 +1,8 @@
 .wrapper-starbar .banner-mixology{
 	width: 100%;
 	
-	opacity: 0;
 }
-.ani-mixo-1{
-	animation: mixology-1 10s  ease-out forwards;
-}
+
 .ani-mixo-2{
 	animation: mixology-2 10s  ease-out forwards;
 }
@@ -31,7 +28,6 @@
 	display: table;
 		margin: 0 auto 20px auto;
 		
-		/*opacity: 0;*/
 
 }
 
@@ -105,7 +101,7 @@
 		width: 100%;
 		margin-top: -10%;
 		
-		opacity: 0;
+		
 
 		z-index: 1;
 		position: relative;
@@ -129,24 +125,6 @@
 	}
 }
 
-@keyframes mixology-1{
-	from {
-	    opacity: 0;
-	    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-	    transform: scale3d(0.3, 0.3, 0.3); }
-	  7% {
-	    opacity: 0;
-	    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-	    transform: scale3d(0.3, 0.3, 0.3); }
-	  14% {
-	    opacity: 1;
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1); }
-	  100% {
-	    opacity: 1;
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1); } 
-	}
 
 @keyframes mixology-2{
 	0%{

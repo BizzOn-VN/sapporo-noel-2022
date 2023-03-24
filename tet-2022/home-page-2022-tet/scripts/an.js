@@ -275,8 +275,6 @@ $('.img-cube').click(function(){
 
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 80) {
-        $('.wrapper-starbar .banner-mixology').addClass('ani-mixo-1');
-        $('.wrapper-starbar .banner-mixology-mb').addClass('ani-mixo-1');
         $('.wrapper-starbar .img-starbar').addClass('ani-mixo-3');
         $('.wrapper-starbar .img-logo').addClass('ani-mixo-2');
         $('.wrapper-starbar .content-text').addClass('ani-mixo-4');
