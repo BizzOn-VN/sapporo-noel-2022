@@ -39,6 +39,7 @@
 }
 .wrapper-starbar .content-starbar p{
 	font-size: calc(3px + 0.8vw);
+	margin-bottom: 5px;
 }
 .wrapper-starbar  p span{
 	font-family: "SVN-GothamBold";
@@ -49,7 +50,7 @@
 	position: relative;
 	z-index: 2;
 }
-.wrapper-starbar  a{
+.wrapper-starbar a{
 	text-transform: uppercase;
 	background: #000;
 	padding: 5px 12px;
@@ -57,9 +58,10 @@
 	color: #FFF;
 	font-weight: 400;
 	margin-top: 10px;
-	font-size: calc(5px + 0.8vw);
+	font-size: calc(5px + 1vw);
 	border: 1px solid #000;
 	display: inline-block;
+	font-family: "UTMBebas";
 }
 .wrapper-starbar  a:hover{
 	background: #FFF;
@@ -68,13 +70,16 @@
 }
 @media screen and (max-width: 991px) and (min-width: 768px){
 	.wrapper-starbar .content-starbar .img-starbar{
-		margin: 0 auto 15px auto;
+		margin: 0 auto 10px auto;
 	}
 	.wrapper-starbar .content-starbar .img-logo{
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	.wrapper-starbar .content-starbar p{
-		margin-bottom: 8px;
+		    font-size: calc(2px + 0.9vw);
+	}
+	.wrapper-starbar a{
+		margin-top: 5px;
 	}
 }
 
